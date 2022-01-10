@@ -20,7 +20,7 @@ Hi there 👋
 I am a 4th year undergraduate student double majoring in applied mathematics and computer science at [USC](https://www.usc.edu/).
 At USC, I had the honor to work with Professor [Xiang Ren](https://shanzhenren.github.io/), Professor [Yan Liu](https://viterbi-web.usc.edu/~liu32/), Professor [Mohammad Soleymani](https://people.ict.usc.edu/~soleymani/), and Professor [Muhao Chen](https://muhaochen.github.io/).
 
-My current research interests is in natural language processing. Particularly,
+My current research interests is in `machine learning` and `natural language processing`. Particularly,
 - transparent and robust NLP system
 - high-level supervisions for model regularization
 
