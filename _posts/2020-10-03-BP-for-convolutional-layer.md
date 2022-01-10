@@ -1,9 +1,8 @@
 ---
 title: "BP for convolutional layer"
-tag:
- - deep learning
+categories:
+ - cnn
  - math
+nav: true
+permalink: /files/BP_for_Conv.pdf
 ---
-Details of BP algorithm for conv layers
-
-[Download paper here](/files/writings/BP_for_Conv.pdf)

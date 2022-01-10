@@ -1,7 +1,6 @@
 ---
 title: "Test for randomness"
-tag: probability
+categories: probability
+nav: true
+permalink: /files/test_for_rand.pdf 
 ---
-Explains a few methods for testing randomness.
-
-[Download paper here](/files/writings/test_for_rand.pdf)
