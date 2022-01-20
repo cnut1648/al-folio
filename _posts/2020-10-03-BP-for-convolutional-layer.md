@@ -1,8 +1,9 @@
 ---
+layout: page
 title: "BP for convolutional layer"
 categories:
  - cnn
  - math
 nav: true
-permalink: /files/BP_for_conv_layer.pdf
+permalink: /writings/BP_for_conv_layer.pdf
 ---
