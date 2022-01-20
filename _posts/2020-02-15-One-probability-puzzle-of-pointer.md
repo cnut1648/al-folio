@@ -5,5 +5,5 @@ categories:
  - probability
  - math
 nav: true
-permalink: /files/OneProbPuzzleOfPtr.pdf
+permalink: /files/One_prob_puzzle_of_ptr.pdf
 ---

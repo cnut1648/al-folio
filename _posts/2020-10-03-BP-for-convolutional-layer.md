@@ -4,5 +4,5 @@ categories:
  - cnn
  - math
 nav: true
-permalink: /files/BP_for_Conv.pdf
+permalink: /files/BP_for_conv_layer.pdf
 ---
