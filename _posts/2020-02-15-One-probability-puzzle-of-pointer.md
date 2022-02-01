@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: post
 title: "One probability puzzle of pointer"
 categories:
  - probability
  - math
 nav: true
-permalink: /writings/One_prob_puzzle_of_ptr.pdf
+redirect: /files/posts/One_prob_puzzle_of_ptr.pdf
 ---

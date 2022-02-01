@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: "Platonic solids and graphs"
 categories: graph
 nav: true
-permalink: /writings/Platonic_solids.pdf
+redirect: /files/posts/Platonic_solids.pdf
 ---
