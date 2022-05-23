@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 4th year USC undergraduate double majoring in applied mathematics and computer science
+subtitle: 4th year USC undergraduate
 
 profile:
   align: right
@@ -24,7 +24,7 @@ My current research interests is in `machine learning` and `natural language pro
 - transparent and robust NLP system
 - high-level supervisions for model regularization
 
-This is my girlfriend and me
+This is my girlfriend [Carmen](https://www.linkedin.com/in/carmen-liang/) and me
 <p align="center">
   <img src="/assets/img/cc_and_me.jpg" alt="Photo" style="width: 450px;"/>
 </p>
