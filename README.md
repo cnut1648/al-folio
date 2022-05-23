@@ -1,5 +1,5 @@
 # al-folio
 
-my website in [al-folio](https://github.com/alshedivat/al-folio)
+my website based on [al-folio](https://github.com/alshedivat/al-folio)
 
-My website is in [here](https://cnut1648.github.io/)
+My website is accessible in [here](https://cnut1648.github.io/)
