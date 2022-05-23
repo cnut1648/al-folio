@@ -26,5 +26,5 @@ My current research interests is in `machine learning` and `natural language pro
 
 This is my girlfriend [Carmen](https://www.linkedin.com/in/carmen-liang/) and me
 <p align="center">
-  <img src="/assets/img/cc_and_me.jpg" alt="Photo" style="width: 450px;"/>
+  <img src="/assets/img/cc_and_me.jpg" alt="Photo" style="max-width: 350px; width: 100%;"/>
 </p>
