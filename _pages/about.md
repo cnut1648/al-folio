@@ -14,6 +14,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+<style type="text/css">
+  .ccimg {
+    max-width: 350px; width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
 
 Hi there 👋
 
@@ -25,6 +33,5 @@ My current research interests is in `machine learning` and `natural language pro
 - high-level supervisions for model regularization
 
 This is my girlfriend [Carmen](https://www.linkedin.com/in/carmen-liang/) and me
-<p align="center">
-  <img src="/assets/img/cc_and_me.jpg" alt="Photo" style="max-width: 350px; width: 100%;"/>
-</p>
+
+{% include figure.html path="assets/img/cc_and_me.jpg" class="img-fluid rounded z-depth-1 ccimg" zoomable=true %}
