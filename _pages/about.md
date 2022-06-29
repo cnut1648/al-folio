@@ -1,11 +1,12 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: 4th year USC undergraduate
 
 profile:
   align: right
+  image_cicular: false # crops the image to make it circular
   image: profile.jpg
   address: >
 
