@@ -6,12 +6,13 @@
   title={SalKG: Learning From Knowledge Graph Explanations for Commonsense Reasoning},
   author={Chan, Aaron and Xu, Jiashu and Long, Boyuan and Sanyal, Soumya and Gupta, Tanishq and Ren, Xiang},
   journal={Advances in Neural Information Processing Systems (NeurIPS),},
-  pdf={https://arxiv.org/pdf/2104.08793.pdf},
+  pdf={https://proceedings.neurips.cc/paper/2021/file/9752d873fa71c19dc602bf2a0696f9b5-Paper.pdf},
   arxiv={2104.08793},
+  abstract={Augmenting pre-trained language models with knowledge graphs (KGs) has achieved success on various commonsense reasoning tasks. However, for a given task instance, the KG, or certain parts of the KG, may not be useful. Although KG-augmented models often use attention to focus on specific KG components, the KG is still always used, and the attention mechanism is never explicitly taught which KG components should be used. Meanwhile, saliency methods can measure how much a KG feature (e.g., graph, node, path) influences the model to make the correct prediction, thus explaining which KG features are useful. This paper explores how saliency explanations can be used to improve KG-augmented models' performance. First, we propose to create coarse (Is the KG useful?) and fine (Which nodes/paths in the KG are useful?) saliency explanations. Second, to motivate saliency-based supervision, we analyze oracle KG-augmented models which directly use saliency explanations as extra inputs for guiding their attention. Third, we propose SalKG, a framework for KG-augmented models to learn from coarse and/or fine saliency explanations. Given saliency explanations created from a task's training set, SalKG jointly trains the model to predict the explanations, then solve the task by attending to KG features highlighted by the predicted explanations. On three commonsense QA benchmarks (CSQA, OBQA, CODAH) and a range of KG-augmented models, we show that SalKG can yield considerable performance gains -- up to 2.76% absolute improvement on CSQA.},
   code={https://github.com/INK-USC/SalKG},
   year={2021},
   selected={true},
-  teaser={salkg.png}
+  preview={salkg.png}
 }
 
 @article{ma2021dss,
@@ -33,4 +34,17 @@
   html={/files/DART_v5.pdf},
   year={2022 (under review)},
   selected={true},
+}
+
+@inproceedings{huang-etal-2022-unified,
+    title = {Unified Semantic Typing with Meaningful Label Inference},
+    author = {Huang, James Y. and Li, Bangzheng and Xu, Jiashu and Chen, Muhao},
+    booktitle = {Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
+    year = {2022},
+    abbr={NAACL},
+    preview={unist.jpg},
+    arxiv={https://arxiv.org/abs/2205.01826},
+    pdf={https://aclanthology.org/2022.naacl-main.190.pdf},
+    abstract={Semantic typing aims at classifying tokens or spans of interest in a textual context into semantic categories such as relations, entity types, and event types. The inferred labels of semantic categories meaningfully interpret how machines understand components of text. In this paper, we present UniST, a unified framework for semantic typing that captures label semantics by projecting both inputs and labels into a joint semantic embedding space. To formulate different lexical and relational semantic typing tasks as a unified task, we incorporate task descriptions to be jointly encoded with the input, allowing UniST to be adapted to different tasks without introducing task-specific model components. UniST optimizes a margin ranking loss such that the semantic relatedness of the input and labels is reflected from their embedding similarity. Our experiments demonstrate that UniST achieves strong performance across three semantic typing tasks: entity typing, relation classification and event typing. Meanwhile, UniST effectively transfers semantic knowledge of labels and substantially improves generalizability on inferring rarely seen and unseen types. In addition, multiple semantic typing tasks can be jointly trained within the unified framework, leading to a single compact multi-tasking model that performs comparably to dedicated single-task models, while offering even better transferability.},
+    selected = {true},
 }
