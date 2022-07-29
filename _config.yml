@@ -209,7 +209,7 @@ display_tags: null # this tags will be dispalyed on the front page of your blog
 
 scholar:
   last_name: [ Xu, Xu* ]
-  first_name: [ Jiashu, J. ]
+  first_name: [ Jiashu, J., Jiashu* ]
 
   style: apa
   locale: en
