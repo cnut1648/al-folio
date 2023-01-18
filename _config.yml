@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Jiashu
 middle_name:
 last_name: Xu (徐家澍)
-email: jiashuxu@usc.edu
+email: jxu1@g.harvard.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website for Jiashu Xu
 footer_text: >
@@ -40,6 +40,8 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
+rss_icon: true
+
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -69,6 +71,7 @@ gitlab_username: # your GitLab user name
 twitter_username: JiashuXu2 # your Twitter handle
 linkedin_username: jiashu-xu # your LinkedIn user name
 scholar_userid: 0uYehJsAAAAJ # your Google Scholar ID
+semanticscholar_id: 2110519123 # your Semantic Scholar ID
 orcid_id: 0000-0003-4093-2315 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -84,7 +87,7 @@ stackoverflow_id: #your stackoverflow id
 rss_icon: false
 
 contact_note: >
-  Feel free to contact me!
+  Feel free to contact me in email!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -115,7 +118,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
+#external_sources:
 #  - name: medium.com
 #    rss_url: https://medium.com/@al-folio/feed
 
@@ -241,6 +244,10 @@ scholar:
 
   query: "@*"
 
+badges: # Display different badges for your pulications
+  altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
+
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
 
@@ -280,13 +287,13 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
+enable_tooltips:            true  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       true  # enables displaying social links in the
