@@ -26,13 +26,14 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there 👋
 
-I am a 4th year undergraduate student double majoring in applied mathematics and computer science at [USC](https://www.usc.edu/).
-At USC, I had the honor to work with Professor [Xiang Ren](https://shanzhenren.github.io/), Professor [Yan Liu](https://viterbi-web.usc.edu/~liu32/), Professor [Mohammad Soleymani](https://people.ict.usc.edu/~soleymani/), and Professor [Muhao Chen](https://muhaochen.github.io/).
+I am a master student at [Harvard University](https://www.harvard.edu/) studying computer science.
+Previously I double majored in applied mathematics and computer science at [USC](https://www.usc.edu/).
+I had the honor to work with Prof. [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard SEAS, and Prof. [Muhao Chen](https://muhaochen.github.io/) at USC.
 
 My current research interests is in `machine learning` and `natural language processing`. Particularly,
 - transparent and robust NLP system
 - high-level supervisions for model regularization
 
-This is my girlfriend [Carmen](https://www.linkedin.com/in/carmen-liang/) and me
+This is my girlfriend 😍[Carmen](https://www.linkedin.com/in/carmen-liang/) and me
 
 {% include figure.html path="assets/img/cc_and_me.jpg" class="img-fluid rounded z-depth-1 ccimg" zoomable=true %}
