@@ -1,18 +1,104 @@
 ---
 ---
 
-@article{chan2021salkg,
-  abbr={NeurIPS},
-  title={SalKG: Learning From Knowledge Graph Explanations for Commonsense Reasoning},
-  author={Chan, Aaron and Xu, Jiashu and Long, Boyuan and Sanyal, Soumya and Gupta, Tanishq and Ren, Xiang},
-  journal={Advances in Neural Information Processing Systems (NeurIPS),},
-  pdf={https://proceedings.neurips.cc/paper/2021/file/9752d873fa71c19dc602bf2a0696f9b5-Paper.pdf},
-  arxiv={2104.08793},
-  abstract={Augmenting pre-trained language models with knowledge graphs (KGs) has achieved success on various commonsense reasoning tasks. However, for a given task instance, the KG, or certain parts of the KG, may not be useful. Although KG-augmented models often use attention to focus on specific KG components, the KG is still always used, and the attention mechanism is never explicitly taught which KG components should be used. Meanwhile, saliency methods can measure how much a KG feature (e.g., graph, node, path) influences the model to make the correct prediction, thus explaining which KG features are useful. This paper explores how saliency explanations can be used to improve KG-augmented models' performance. First, we propose to create coarse (Is the KG useful?) and fine (Which nodes/paths in the KG are useful?) saliency explanations. Second, to motivate saliency-based supervision, we analyze oracle KG-augmented models which directly use saliency explanations as extra inputs for guiding their attention. Third, we propose SalKG, a framework for KG-augmented models to learn from coarse and/or fine saliency explanations. Given saliency explanations created from a task's training set, SalKG jointly trains the model to predict the explanations, then solve the task by attending to KG features highlighted by the predicted explanations. On three commonsense QA benchmarks (CSQA, OBQA, CODAH) and a range of KG-augmented models, we show that SalKG can yield considerable performance gains -- up to 2.76% absolute improvement on CSQA.},
-  code={https://github.com/INK-USC/SalKG},
-  year={2021},
+@inproceedings{xu-etal-2023-nli,
+    title = "Can {NLI} Provide Proper Indirect Supervision for Low-resource Biomedical Relation Extraction?",
+    author={Xu, Jiashu and Ma, Mingyu Derek and Chen, Muhao},
+    booktitle = "Association for Computational Linguistics (ACL)",
+    month = jul,
+    abbr={ACL},
+    abbr2={Oral},
+    year = "2023",
+    arxiv={2212.10784},
+    doi={10.18653/v1/2023.acl-long.138},
+    preview={can-nli.jpg},
+    selected = {true},
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.138",
+    doi = "10.18653/v1/2023.acl-long.138",
+    pages = "2450--2467",
+    pdf={https://aclanthology.org/2023.acl-long.138.pdf},
+    code={https://github.com/luka-group/nli_as_indirect_supervision},
+    abstract = "Two key obstacles in biomedical relation extraction (RE) are the scarcity of annotations and the prevalence of instances without explicitly pre-defined labels due to low annotation coverage. Existing approaches, which treat biomedical RE as a multi-class classification task, often result in poor generalization in low-resource settings and do not have the ability to make selective prediction on unknown cases but give a guess from seen relations, hindering the applicability of those approaches. We present NBR, which converts biomedical RE as natural language inference formulation through indirect supervision. By converting relations to natural language hypotheses, NBR is capable of exploiting semantic cues to alleviate annotation scarcity. By incorporating a ranking-based loss that implicitly calibrates abstinent instances, NBR learns a clearer decision boundary and is instructed to abstain on uncertain instances. Extensive experiments on three widely-used biomedical RE benchmarks, namely ChemProt, DDI and GAD, verify the effectiveness of NBR in both full-set and low-resource regimes. Our analysis demonstrates that indirect supervision benefits biomedical RE even when a domain gap exists, and combining NLI knowledge with biomedical knowledge leads to the best performance gains.",
+}
+
+@article{xu2023instructions,
+  title={Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models},
+  author={Xu, Jiashu and Ma, Mingyu Derek and Wang, Fei and Xiao, Chaowei and Chen, Muhao},
+  journal={arXiv preprint arXiv:2305.14710},
+  abbr={Arxiv},
+  year={2023},
+  preview={instruction-attack.jpg},
   selected={true},
-  preview={salkg.png}
+  arxiv={https://arxiv.org/pdf/2305.14710.pdf},
+  abstract={Instruction-tuned models are trained on crowdsourcing datasets with task instructions to achieve superior performance. However, in this work we raise security concerns about this training paradigm. Our studies demonstrate that an attacker can inject backdoors by issuing very few malicious instructions among thousands of gathered data and control model behavior through data poisoning, without even the need of modifying data instances or labels themselves. Through such instruction attacks, the attacker can achieve over 90% attack success rate across four commonly used NLP datasets, and cause persistent backdoors that are easily transferred to 15 diverse datasets zero-shot. In this way, the attacker can directly apply poisoned instructions designed for one dataset on many other datasets. Moreover, the poisoned model cannot be cured by continual learning. Lastly, instruction attacks show resistance to existing inference-time defense. These findings highlight the need for more robust defenses against data poisoning attacks in instructiontuning models and underscore the importance of ensuring data quality in instruction crowdsourcing.}
+}
+
+@article{ge2023beyond,
+  title={Beyond Generation: Harnessing Text to Image Models for Object Detection and Segmentation},
+  author={Ge*, Yunhao and Xu*, Jiashu and Zhao, Brian Nlong and Joshi, Neel and Itti, Laurent and Vineet, Vibhav},
+  journal={arXiv preprint arXiv:2309.05956},
+  arxiv={2309.05956},
+  code={https://github.com/luka-group/nli_as_indirect_supervision},
+  selected={true},
+  abbr2={Extension},
+  abbr={Arxiv},
+  preview={beyond-generation.png},
+  abstract={We propose a new paradigm to automatically generate training data with accurate labels at scale using the text-to-image synthesis frameworks (e.g., DALL-E, Stable Diffusion, etc.). The proposed approach1 decouples training data generation into foreground object generation, and contextually coherent background generation. To generate foreground objects, we employ a straightforward textual template, incorporating the object class name as input prompts. This is fed into a text-to-image synthesis framework, producing various foreground images set against isolated backgrounds. A foreground-background segmentation algorithm is then used to generate foreground object masks. To generate context images, we begin by creating language descriptions of the context. This is achieved by applying an image captioning method to a small set of images representing the desired context. These textual descriptions are then transformed into a diverse array of context images via a text-to-image synthesis framework. Subsequently, we composite these with the foreground object masks produced in the initial step, utilizing a cut-and-paste method, to formulate the training data. We demonstrate the advantages of our approach on five object detection and segmentation datasets, including Pascal VOC and COCO. We found that detectors trained solely on synthetic data produced by our method achieve performance comparable to those trained on real data (Fig. 1). Moreover, a combination of real and synthetic data yields even much better results. Further analysis indicates that the synthetic data distribution complements the real data distribution effectively. Additionally, we emphasize the compositional nature of our data generation approach in out-of-distribution and zero-shot data generation scenarios. We open-source our code at https://github.com/gyhandy/Text2Image-for-Detection},
+  year={2023}
+}
+
+@article{ge2022dall,
+  abbr={Arxiv},
+  title={Dall-e for detection: Language-driven context image synthesis for object detection},
+  author={Ge*, Yunhao and Xu*, Jiashu and Zhao, Brian Nlong and Itti, Laurent and Vineet, Vibhav},
+  journal={arXiv preprint},
+  arxiv={2206.09592},
+  year={2022},
+  abstract={We propose a new paradigm to automatically generate training data with accurate labels at scale using the text-toimage synthesis frameworks (e.g., DALL-E, Stable Diffusion, etc.). The proposed approach decouples training data generation into foreground object mask generation and background (context) image generation. For foreground object mask generation, we use a simple textual template with object class name as input to DALL-E to generate a diverse set of foreground images. A foreground-background segmentation algorithm is then used to generate foreground object masks. Next, in order to generate context images, first a language description of the context is generated by applying an image captioning method on a small set of images representing the context. These language descriptions are then used to generate diverse sets of context images using the DALL-E framework. These are then composited with object masks generated in the first step to provide an augmented training set for a classifier. We demonstrate the advantages of our approach on four object detection datasets including on Pascal VOC and COCO object detection tasks. Furthermore, we also highlight the compositional nature of our data generation approach on out-of-distribution and zero-shot data generation scenarios.},
+  code={https://github.com/gyhandy/Text2Image-for-Detection},
+  preview={beyond-generation.png},
+  selected = {false},
+}
+
+@inproceedings{yin2022x,
+  title={X-Norm: Exchanging Normalization Parameters for Bimodal Fusion},
+  author={Yin*, Yufeng and Xu*, Jiashu and Zu, Tianxin and Soleymani, Mohammad},
+  booktitle={Proceedings of the 2022 International Conference on Multimodal Interaction},
+  pages={605--614},
+  abbr={ICMI},
+  preview={X-Norm.jpg},
+  pdf={https://dl.acm.org/doi/abs/10.1145/3536221.3556581},
+  abstract={Multimodal learning aims to process and relate information from different modalities to enhance the model’s capacity for perception. Current multimodal fusion mechanisms either do not align the feature spaces closely or are expensive for training and inference. In this paper, we present X-Norm, a novel, simple and efficient method for bimodal fusion that generates and exchanges limited but meaningful normalization parameters between the modalities implicitly aligning the feature spaces. We conduct extensive experiments on two tasks of emotion and action recognition with different architectures including Transformer-based and CNN-based models using IEMOCAP and MSP-IMPROV for emotion recognition and EPIC-KITCHENS for action recognition. The experimental results show that X-Norm achieves comparable or superior performance compared to the existing methods including early and late fusion, Gradient-Blending (G-Blend), Tensor Fusion Network, and Multimodal Transformer, with a relatively low training cost.},
+  selected={true},
+  year={2022}
+}
+
+
+@inproceedings{ge2022neural,
+  title={Neural-Sim: Learning to Generate Training Data with NeRF},
+  author={Ge, Yunhao and Behl*, Harkirat and Xu*, Jiashu and Gunasekar, Suriya and Joshi, Neel and Song, Yale and Wang, Xin and Itti, Laurent and Vineet, Vibhav},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  abbr={ECCV},
+  pdf={https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830463.pdf},
+  arxiv={2207.11368},
+  preview={neural-sim.png},
+  selected={true},
+  year={2022}
+}
+
+@inproceedings{huang-etal-2022-unified,
+    title = {Unified Semantic Typing with Meaningful Label Inference},
+    author = {Huang, James Y. and Li*, Bangzheng and Xu*, Jiashu and Chen, Muhao},
+    booktitle = {Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
+    year = {2022},
+    abbr={NAACL},
+    preview={unist.jpg},
+    arxiv={2205.01826},
+    pdf={https://aclanthology.org/2022.naacl-main.190.pdf},
+    abstract={Semantic typing aims at classifying tokens or spans of interest in a textual context into semantic categories such as relations, entity types, and event types. The inferred labels of semantic categories meaningfully interpret how machines understand components of text. In this paper, we present UniST, a unified framework for semantic typing that captures label semantics by projecting both inputs and labels into a joint semantic embedding space. To formulate different lexical and relational semantic typing tasks as a unified task, we incorporate task descriptions to be jointly encoded with the input, allowing UniST to be adapted to different tasks without introducing task-specific model components. UniST optimizes a margin ranking loss such that the semantic relatedness of the input and labels is reflected from their embedding similarity. Our experiments demonstrate that UniST achieves strong performance across three semantic typing tasks: entity typing, relation classification and event typing. Meanwhile, UniST effectively transfers semantic knowledge of labels and substantially improves generalizability on inferring rarely seen and unseen types. In addition, multiple semantic typing tasks can be jointly trained within the unified framework, leading to a single compact multi-tasking model that performs comparably to dedicated single-task models, while offering even better transferability.},
+    selected = {false},
 }
 
 @article{ma2021dss,
@@ -37,43 +123,17 @@
   selected={false},
 }
 
-@inproceedings{huang-etal-2022-unified,
-    title = {Unified Semantic Typing with Meaningful Label Inference},
-    author = {Huang, James Y. and Li*, Bangzheng and Xu*, Jiashu and Chen, Muhao},
-    booktitle = {Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
-    year = {2022},
-    abbr={NAACL},
-    preview={unist.jpg},
-    arxiv={2205.01826},
-    pdf={https://aclanthology.org/2022.naacl-main.190.pdf},
-    abstract={Semantic typing aims at classifying tokens or spans of interest in a textual context into semantic categories such as relations, entity types, and event types. The inferred labels of semantic categories meaningfully interpret how machines understand components of text. In this paper, we present UniST, a unified framework for semantic typing that captures label semantics by projecting both inputs and labels into a joint semantic embedding space. To formulate different lexical and relational semantic typing tasks as a unified task, we incorporate task descriptions to be jointly encoded with the input, allowing UniST to be adapted to different tasks without introducing task-specific model components. UniST optimizes a margin ranking loss such that the semantic relatedness of the input and labels is reflected from their embedding similarity. Our experiments demonstrate that UniST achieves strong performance across three semantic typing tasks: entity typing, relation classification and event typing. Meanwhile, UniST effectively transfers semantic knowledge of labels and substantially improves generalizability on inferring rarely seen and unseen types. In addition, multiple semantic typing tasks can be jointly trained within the unified framework, leading to a single compact multi-tasking model that performs comparably to dedicated single-task models, while offering even better transferability.},
-    selected = {true},
-}
 
-@COMMENT{ge2022dall,
-  abbr={Arxiv},
-  title={Dall-e for detection: Language-driven context image synthesis for object detection},
-  author={Ge, Yunhao and Xu, Jiashu and Zhao, Brian Nlong and Itti, Laurent and Vineet, Vibhav},
-  journal={arXiv preprint},
-  arxiv={2206.09592},
-  year={2022}
-}
-
-@inproceedings{ge2022neural,
-  title={Neural-Sim: Learning to Generate Training Data with NeRF},
-  author={Ge, Yunhao and Behl*, Harkirat and Xu*, Jiashu and Gunasekar, Suriya and Joshi, Neel and Song, Yale and Wang, Xin and Itti, Laurent and Vineet, Vibhav},
-  booktitle={European Conference on Computer Vision (ECCV)},
-  abbr={ECCV2022},
-  pdf={https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830463.pdf},
-  arxiv={2207.11368},
-  year={2022}
-}
-
-@article{xu2022can,
-  abbr={Arxiv},
-  title={Can NLI Provide Proper Indirect Supervision for Low-resource Biomedical Relation Extraction?},
-  author={Xu, Jiashu and Ma, Mingyu Derek and Chen, Muhao},
-  journal={arXiv preprint},
-  arxiv={2212.10784},
-  year={2022}
+@article{chan2021salkg,
+  abbr={NeurIPS},
+  title={SalKG: Learning From Knowledge Graph Explanations for Commonsense Reasoning},
+  author={Chan, Aaron and Xu, Jiashu and Long, Boyuan and Sanyal, Soumya and Gupta, Tanishq and Ren, Xiang},
+  journal={Advances in Neural Information Processing Systems (NeurIPS),},
+  pdf={https://proceedings.neurips.cc/paper/2021/file/9752d873fa71c19dc602bf2a0696f9b5-Paper.pdf},
+  arxiv={2104.08793},
+  abstract={Augmenting pre-trained language models with knowledge graphs (KGs) has achieved success on various commonsense reasoning tasks. However, for a given task instance, the KG, or certain parts of the KG, may not be useful. Although KG-augmented models often use attention to focus on specific KG components, the KG is still always used, and the attention mechanism is never explicitly taught which KG components should be used. Meanwhile, saliency methods can measure how much a KG feature (e.g., graph, node, path) influences the model to make the correct prediction, thus explaining which KG features are useful. This paper explores how saliency explanations can be used to improve KG-augmented models' performance. First, we propose to create coarse (Is the KG useful?) and fine (Which nodes/paths in the KG are useful?) saliency explanations. Second, to motivate saliency-based supervision, we analyze oracle KG-augmented models which directly use saliency explanations as extra inputs for guiding their attention. Third, we propose SalKG, a framework for KG-augmented models to learn from coarse and/or fine saliency explanations. Given saliency explanations created from a task's training set, SalKG jointly trains the model to predict the explanations, then solve the task by attending to KG features highlighted by the predicted explanations. On three commonsense QA benchmarks (CSQA, OBQA, CODAH) and a range of KG-augmented models, we show that SalKG can yield considerable performance gains -- up to 2.76% absolute improvement on CSQA.},
+  code={https://github.com/INK-USC/SalKG},
+  year={2021},
+  selected={false},
+  preview={salkg.png}
 }

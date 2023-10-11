@@ -14,5 +14,17 @@
 "Arxiv":
   url: https://arxiv.org/
 
-"ECCV2022":
+"ECCV":
   url: https://eccv2022.ecva.net/
+
+"ACL":
+  url: https://aclanthology.org/
+
+"ICMI":
+  url: https://icmi.acm.org/
+
+"NAACL":
+  url: https://naacl.org/
+
+"NeurIPS":
+  url: https://nips.cc/
