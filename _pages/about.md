@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 4th year USC undergraduate
+subtitle: Master student @ Harvard
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 <style type="text/css">
@@ -29,6 +29,7 @@ Hi there 👋
 I am a master student at [Harvard University](https://www.harvard.edu/) studying computer science.
 Previously I double majored in applied mathematics and computer science at [USC](https://www.usc.edu/).
 I had the honor to work with Prof. [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard SEAS, and Prof. [Muhao Chen](https://muhaochen.github.io/) at USC.
+I have spent a bit of time as research intern at Amazon Science team working on LLM. 
 
 My current research interests is in `machine learning` and `natural language processing`. Particularly,
 - transparent and robust NLP system

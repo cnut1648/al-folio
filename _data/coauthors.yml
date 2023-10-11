@@ -21,18 +21,59 @@
 "Sanyal":
   - firstname: ["Soumya", ]
     url: https://soumyasanyal.github.io/
-"Xiang":
-  - firstname: ["Ren"]
+"Ren":
+  - firstname: ["Xiang", ]
     url: https://shanzhenren.github.io/
 "Long":
   - firstname: ["Boyuan", ]
     url: https://www.linkedin.com/in/boyuan-long-48a5ab16b/
+"Joshi":
+  - firstname: ["Neel"]
+    url: https://neelj.com/
+"Itti":
+  - firstname: ["Laurent"]
+    url: http://ilab.usc.edu/itti/
+"Vineet":
+  - firstname: ["Vibhav"]
+    url: https://vibhav-vineet.github.io/
 "Ge":
   - firstname: ["Yunhao", ]
     url: https://gyhandy.github.io/
 "Behl":
   - firstname: ["Harkirat", "Harkirat*" ]
     url: https://harkiratbehl.github.io/
+"Trinh":
+  - firstname: ["Loc"]
+    url: https://lqtrinh.com/
+"Anandkumar":
+  - firstname: ["Anima"]
+    url: http://tensorlab.cms.caltech.edu/users/anima/
+"Hung":
+  - firstname: ["Andrew"]
+    url: https://researchers.cedars-sinai.edu/Andrew.Hung
+"Song":
+  - firstname: ["Yale"]
+    url: https://people.csail.mit.edu/yalesong/home/
+"Zhao":
+  - firstname: ["Brian Nlong"]
+    url: https://scholar.google.com/citations?user=IhqFMeUAAAAJ&hl=en
 "Gunasekar":
   - firstname: ["Suriya"]
     url: https://sgunasekar.github.io/
+"Wang":
+  - firstname: ["Fei"]
+    url: https://feiwang96.github.io/
+  - firstname: [ "Xin" ]
+    url: https://xinw.ai/
+"Xiao":
+  - firstname: ['Chaowei',]
+    url: https://xiaocw11.github.io/
+"Yin":
+  - firstname: ["Yufeng"]
+    url: https://yufengyin.github.io/
+"Zu":
+  - firstname: ["Tianxin"]
+    url: https://www.linkedin.com/in/tianxin-zu-81b13a220
+"Soleymani":
+  - firstname: ["Mohammad"]
+    url: https://people.ict.usc.edu/~soleymani/
