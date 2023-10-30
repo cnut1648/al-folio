@@ -31,9 +31,10 @@ Previously I double majored in applied mathematics and computer science at [USC]
 I had the honor to work with Prof. [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard SEAS, and Prof. [Muhao Chen](https://muhaochen.github.io/) at USC.
 I have spent a bit of time as research intern at Amazon Science team working on LLM. 
 
-My current research interests is in `machine learning` and `natural language processing`. Particularly,
-- transparent and robust NLP system
-- high-level supervisions for model regularization
+My current research interests is in `reliable AI`. Particularly,
+- Safe AI [[1](https://arxiv.org/pdf/2305.14710.pdf)]
+- Training AI that excels in low-resource regime, through indirect supervision [[1](https://aclanthology.org/2023.acl-long.138.pdf), [2](https://aclanthology.org/2022.naacl-main.190.pdf)] or synthetic data [[3](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830463.pdf), [4](https://arxiv.org/abs/2206.09592), [5](https://arxiv.org/abs/2309.05956)]
+- Explanation and how we can learn from explanation [[1](https://proceedings.neurips.cc/paper/2021/file/9752d873fa71c19dc602bf2a0696f9b5-Paper.pdf), [2](https://www.nature.com/articles/s41746-022-00738-y), [3](https://www.nature.com/articles/s41746-022-00738-y)]
 
 This is my girlfriend 😍[Carmen](https://www.linkedin.com/in/carmen-liang/) and me
 
