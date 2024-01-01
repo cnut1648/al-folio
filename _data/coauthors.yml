@@ -12,6 +12,8 @@
 "Li":
   - firstname: ["Bangzheng", "Bangzheng*"]
     url: https://scholar.google.com/citations?user=UcegV-cAAAAJ&hl=en
+  - firstname: ["Dongsheng", ]
+    url: http://recmind.cn/
 "Chen":
   - firstname: ["Muhao", ]
     url: https://muhaochen.github.io/
@@ -65,9 +67,13 @@
     url: https://feiwang96.github.io/
   - firstname: [ "Xin" ]
     url: https://xinw.ai/
+  - firstname: ["Jiongxiao"]
+    url: https://jiongxiao-wang.github.io/
 "Xiao":
   - firstname: ['Chaowei',]
     url: https://xiaocw11.github.io/
+  - firstname: ["Yuhang", ]
+    url: https://www.linkedin.com/in/mydcxiao/?locale=en_US
 "Yin":
   - firstname: ["Yufeng"]
     url: https://yufengyin.github.io/
@@ -77,3 +83,18 @@
 "Soleymani":
   - firstname: ["Mohammad"]
     url: https://people.ict.usc.edu/~soleymani/
+"Jiang":
+  - firstname: ["Xinyang", ]
+    url: https://www.microsoft.com/en-us/research/people/xinyangjiang/
+"Yang":
+  - firstname: ["Yifan", ]
+    url: https://www.microsoft.com/en-us/research/people/yifanyang/
+"Yan":
+  - firstname: ["Jun", ]
+    url: https://junyann.github.io/
+"Liu":
+  - firstname: ["Qin", ]
+    url: https://qinliu9.github.io/
+"Mo":
+  - firstname: ["Wenjie"]
+    url: https://www.linkedin.com/in/jacky-mo-b5827a213/

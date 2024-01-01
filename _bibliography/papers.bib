@@ -1,6 +1,19 @@
 ---
 ---
-
+@inproceedings{zhao2023dream,
+  title={DreamDistribution: Prompt Distribution Learning for Text-to-Image Diffusion Models},
+  author={Zhao, Brian Nlong and Xiao*, Yuhang and Xu*, Jiashu and Jiang, Xinyang and Yang, Yifan and Li, Dongsheng and Itti, Laurent and Ge, Yunhao and Vineet, Vibhav},
+  booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+  abbr={CVPR},
+  abstract={The popularization of Text-to-Image (T2I) diffusion models enables the generation of high-quality images from text descriptions. However, generating diverse customized images with reference visual attributes remains challenging. This work focuses on personalizing T2I diffusion models at a more abstract concept or category level, adapting commonalities from a set of reference images while creating new instances with sufficient variations. We introduce a solution that allows a pretrained T2I diffusion model to learn a set of soft prompts, enabling the generation of novel images by sampling prompts from the learned distribution. These prompts offer text-guided editing capabilities and additional flexibility in controlling variation and mixing between multiple distributions. We also show the adaptability of the learned prompt distribution to other tasks, such as text-to-3D. Finally we demonstrate effectiveness of our approach through quantitative analysis including automatic evaluation and human assessment. },
+  arxiv={2312.14216},
+  code={https://briannlongzhao.github.io/DreamDistribution/},
+  abbr2={Under Review},
+  selected = {false},
+  bibtex_show={true},
+  preview={dreamdistribution.png},
+  year={2023},
+}
 @inproceedings{xu-etal-2023-nli,
     title = "Can {NLI} Provide Proper Indirect Supervision for Low-resource Biomedical Relation Extraction?",
     author={Xu, Jiashu and Ma, Mingyu Derek and Chen, Muhao},
@@ -22,6 +35,18 @@
     pdf={https://aclanthology.org/2023.acl-long.138.pdf},
     code={https://github.com/luka-group/nli_as_indirect_supervision},
     abstract = "Two key obstacles in biomedical relation extraction (RE) are the scarcity of annotations and the prevalence of instances without explicitly pre-defined labels due to low annotation coverage. Existing approaches, which treat biomedical RE as a multi-class classification task, often result in poor generalization in low-resource settings and do not have the ability to make selective prediction on unknown cases but give a guess from seen relations, hindering the applicability of those approaches. We present NBR, which converts biomedical RE as natural language inference formulation through indirect supervision. By converting relations to natural language hypotheses, NBR is capable of exploiting semantic cues to alleviate annotation scarcity. By incorporating a ranking-based loss that implicitly calibrates abstinent instances, NBR learns a clearer decision boundary and is instructed to abstain on uncertain instances. Extensive experiments on three widely-used biomedical RE benchmarks, namely ChemProt, DDI and GAD, verify the effectiveness of NBR in both full-set and low-resource regimes. Our analysis demonstrates that indirect supervision benefits biomedical RE even when a domain gap exists, and combining NLI knowledge with biomedical knowledge leads to the best performance gains.",
+}
+
+@article{mo2023testtime,
+  title={Test-time Backdoor Mitigation for Black-Box Large Language Models with Defensive Demonstrations},
+  author={Mo, Wenjie and Xu, Jiashu and Liu, Qin and Wang, Jiongxiao and Yan, Jun and Xiao, Chaowei and Chen, Muhao},
+  year={2023},
+  abbr={Arxiv},
+  preview={demo_defense.jpg},
+  bibtex_show={true},
+  journal={arXiv preprint arXiv:2311.09763},
+  arxiv={2311.09763},
+  abstract={Existing studies in backdoor defense have predominantly focused on the training phase, overlooking the critical aspect of testing time defense. This gap becomes particularly pronounced in the context of Large Language Models (LLMs) deployed as Web Services, which typically offer only black-box access, rendering training-time defenses impractical. To bridge this gap, our work introduces defensive demonstrations, an innovative backdoor defense strategy for blackbox large language models. Our method involves identifying the task and retrieving task-relevant demonstrations from an uncontaminated pool. These demonstrations are then combined with user queries and presented to the model during testing, without requiring any modifications/tuning to the black-box model or insights into its internal mechanisms. Defensive demonstrations are designed to counteract the adverse effects of triggers, aiming to recalibrate and correct the behavior of poisoned models during test-time evaluations. Extensive experiments show that defensive demonstrations are effective in defending both instance-level and instruction-level backdoor attacks, not only rectifying the behavior of poisoned models but also surpassing existing baselines in most scenarios.}
 }
 
 @article{xu2023instructions,
