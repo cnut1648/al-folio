@@ -1,10 +1,10 @@
 ---
 ---
-@inproceedings{xu2024instructional,
+@article{xu2024instructional,
   title={Instructional Fingerprinting of Large Language Models},
   author={Jiashu Xu and Fei Wang* and Mingyu Derek Ma* and Pang Wei Koh and Chaowei Xiao and Muhao Chen},
   year={2024},
-  booktitle = {Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
+  journal = {In review of Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
   abs={The exorbitant cost of training Large language models (LLMs) from scratch makes it essential to fingerprint the models to protect intellectual property via ownership authentication and to ensure downstream users and developers comply with their license terms (\eg restricting commercial use). In this study, we present a pilot study on LLM fingerprinting as a form of very lightweight instruction tuning. Model publisher specifies a confidential private key and implants it as an instruction backdoor that causes the LLM to generate specific text when the key is present. Results on 11 popularly-used LLMs showed that this approach is lightweight and does not affect the normal behavior of the model. It also prevents publisher overclaim, maintains robustness against fingerprint guessing and parameter-efficient training, and supports multi-stage fingerprinting akin to MIT License.},
   arxiv={2401.12255},
   abbr={NAACL},
@@ -18,10 +18,10 @@
   archivePrefix={arXiv},
   primaryClass={cs.CR}
 }
-@inproceedings{zhao2023dream,
+@article{zhao2023dream,
   title={DreamDistribution: Prompt Distribution Learning for Text-to-Image Diffusion Models},
   author={Zhao, Brian Nlong and Xiao*, Yuhang and Xu*, Jiashu and Jiang, Xinyang and Yang, Yifan and Li, Dongsheng and Itti, Laurent and Ge, Yunhao and Vineet, Vibhav},
-  booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+  journal ={In review of Conference on Computer Vision and Pattern Recognition (CVPR)},
   abbr={CVPR},
   abstract={The popularization of Text-to-Image (T2I) diffusion models enables the generation of high-quality images from text descriptions. However, generating diverse customized images with reference visual attributes remains challenging. This work focuses on personalizing T2I diffusion models at a more abstract concept or category level, adapting commonalities from a set of reference images while creating new instances with sufficient variations. We introduce a solution that allows a pretrained T2I diffusion model to learn a set of soft prompts, enabling the generation of novel images by sampling prompts from the learned distribution. These prompts offer text-guided editing capabilities and additional flexibility in controlling variation and mixing between multiple distributions. We also show the adaptability of the learned prompt distribution to other tasks, such as text-to-3D. Finally we demonstrate effectiveness of our approach through quantitative analysis including automatic evaluation and human assessment. },
   arxiv={2312.14216},
@@ -30,7 +30,7 @@
   selected = {false},
   bibtex_show={true},
   preview={dreamdistribution.png},
-  year={2023},
+  year={2024},
 }
 @inproceedings{xu-etal-2023-nli,
     title = "Can {NLI} Provide Proper Indirect Supervision for Low-resource Biomedical Relation Extraction?",
@@ -59,10 +59,11 @@
   title={Test-time Backdoor Mitigation for Black-Box Large Language Models with Defensive Demonstrations},
   author={Mo, Wenjie and Xu, Jiashu and Liu, Qin and Wang, Jiongxiao and Yan, Jun and Xiao, Chaowei and Chen, Muhao},
   year={2023},
-  abbr={Arxiv},
+  abbr={NAACL},
+  abbr2={Under Review},
   preview={demo_defense.jpg},
   bibtex_show={true},
-  journal={arXiv preprint arXiv:2311.09763},
+  journal={In review of Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
   arxiv={2311.09763},
   abstract={Existing studies in backdoor defense have predominantly focused on the training phase, overlooking the critical aspect of testing time defense. This gap becomes particularly pronounced in the context of Large Language Models (LLMs) deployed as Web Services, which typically offer only black-box access, rendering training-time defenses impractical. To bridge this gap, our work introduces defensive demonstrations, an innovative backdoor defense strategy for blackbox large language models. Our method involves identifying the task and retrieving task-relevant demonstrations from an uncontaminated pool. These demonstrations are then combined with user queries and presented to the model during testing, without requiring any modifications/tuning to the black-box model or insights into its internal mechanisms. Defensive demonstrations are designed to counteract the adverse effects of triggers, aiming to recalibrate and correct the behavior of poisoned models during test-time evaluations. Extensive experiments show that defensive demonstrations are effective in defending both instance-level and instruction-level backdoor attacks, not only rectifying the behavior of poisoned models but also surpassing existing baselines in most scenarios.}
 }
