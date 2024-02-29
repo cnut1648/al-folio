@@ -8,12 +8,12 @@ profile:
   align: right
   image_cicular: false # crops the image to make it circular
   image: profile.jpg
-  address: >
+  more_info: >
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 <style type="text/css">
@@ -39,4 +39,4 @@ My current research interests is in `Reliable AI`. Particularly,
 
 This is my girlfriend 😍[Carmen](https://www.linkedin.com/in/carmen-liang/) and me
 
-{% include figure.html path="assets/img/cc_and_me.jpg" class="img-fluid rounded z-depth-1 ccimg" zoomable=true %}
+{% include figure.liquid path="assets/img/cc_and_me.jpg" class="img-fluid rounded z-depth-1 ccimg" zoomable=true %}
