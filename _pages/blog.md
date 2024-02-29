@@ -1,14 +1,14 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: Blog
 nav: true
-nav_order: 1
+nav_order: 3
 pagination:
   enabled: true
   collection: posts
   permalink: /page/:num/
-  per_page: 5
+  per_page: 4
   sort_field: date
   sort_reverse: true
   trail:
@@ -25,10 +25,11 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <!-- <h2>{{ site.blog_description }}</h2> -->
   </div>
   {% endif %}
 
+<!--
 {% if site.display_tags or site.display_categories %}
 
   <div class="tag-category-list">
@@ -55,6 +56,7 @@ pagination:
     </ul>
   </div>
   {% endif %}
+-->
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
