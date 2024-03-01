@@ -1,33 +1,33 @@
 "Chan":
-  - firstname: ["Aaron", ]
+  - firstname: ["Aaron"]
     url: https://aarzchan.com/
 "Ma":
-  - firstname: ["Runzhuo", ]
+  - firstname: ["Runzhuo"]
     url: https://scholar.google.com/citations?user=lrFwJtAAAAAJ&hl=en
-  - firstname: ["Mingyu Derek", ]
+  - firstname: ["Mingyu Derek"]
     url: https://derek.ma/
 "Huang":
-  - firstname: ["James Y.", ]
+  - firstname: ["James Y."]
     url: https://jyhuang36.github.io/
 "Li":
   - firstname: ["Bangzheng", "Bangzheng*"]
     url: https://scholar.google.com/citations?user=UcegV-cAAAAJ&hl=en
-  - firstname: ["Dongsheng", ]
+  - firstname: ["Dongsheng"]
     url: http://recmind.cn/
 "Chen":
-  - firstname: ["Muhao", ]
+  - firstname: ["Muhao"]
     url: https://muhaochen.github.io/
 "Gupta":
-  - firstname: ["Tanishq", ]
+  - firstname: ["Tanishq"]
     url: https://scholar.google.com/citations?user=wPYXV7gAAAAJ&hl=en
 "Sanyal":
-  - firstname: ["Soumya", ]
+  - firstname: ["Soumya"]
     url: https://soumyasanyal.github.io/
 "Ren":
-  - firstname: ["Xiang", ]
+  - firstname: ["Xiang"]
     url: https://shanzhenren.github.io/
 "Long":
-  - firstname: ["Boyuan", ]
+  - firstname: ["Boyuan"]
     url: https://www.linkedin.com/in/boyuan-long-48a5ab16b/
 "Joshi":
   - firstname: ["Neel"]
@@ -39,10 +39,10 @@
   - firstname: ["Vibhav"]
     url: https://vibhav-vineet.github.io/
 "Ge":
-  - firstname: ["Yunhao", ]
+  - firstname: ["Yunhao"]
     url: https://gyhandy.github.io/
 "Behl":
-  - firstname: ["Harkirat", "Harkirat*" ]
+  - firstname: ["Harkirat", "Harkirat*"]
     url: https://harkiratbehl.github.io/
 "Trinh":
   - firstname: ["Loc"]
@@ -65,14 +65,14 @@
 "Wang":
   - firstname: ["Fei"]
     url: https://feiwang96.github.io/
-  - firstname: [ "Xin" ]
+  - firstname: ["Xin"]
     url: https://xinw.ai/
   - firstname: ["Jiongxiao"]
     url: https://jiongxiao-wang.github.io/
 "Xiao":
-  - firstname: ['Chaowei',]
+  - firstname: ["Chaowei"]
     url: https://xiaocw11.github.io/
-  - firstname: ["Yuhang", ]
+  - firstname: ["Yuhang"]
     url: https://www.linkedin.com/in/mydcxiao/?locale=en_US
 "Yin":
   - firstname: ["Yufeng"]
@@ -84,16 +84,16 @@
   - firstname: ["Mohammad"]
     url: https://people.ict.usc.edu/~soleymani/
 "Jiang":
-  - firstname: ["Xinyang", ]
+  - firstname: ["Xinyang"]
     url: https://www.microsoft.com/en-us/research/people/xinyangjiang/
 "Yang":
-  - firstname: ["Yifan", ]
+  - firstname: ["Yifan"]
     url: https://www.microsoft.com/en-us/research/people/yifanyang/
 "Yan":
-  - firstname: ["Jun", ]
+  - firstname: ["Jun"]
     url: https://junyann.github.io/
 "Liu":
-  - firstname: ["Qin", ]
+  - firstname: ["Qin"]
     url: https://qinliu9.github.io/
 "Mo":
   - firstname: ["Wenjie"]
