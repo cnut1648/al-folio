@@ -14,6 +14,13 @@
     url: https://scholar.google.com/citations?user=UcegV-cAAAAJ&hl=en
   - firstname: ["Dongsheng"]
     url: http://recmind.cn/
+  - firstname: [ "Chengshu" ]
+    url: https://www.chengshuli.me/
+  - firstname: [ "Yunzhu" ]
+    url: https://yunzhuli.github.io/
+"Fei-Fei":
+  - firstname: ["Li"]
+    url: https://profiles.stanford.edu/fei-fei-li
 "Chen":
   - firstname: ["Muhao"]
     url: https://muhaochen.github.io/
@@ -53,6 +60,12 @@
 "Hung":
   - firstname: ["Andrew"]
     url: https://researchers.cedars-sinai.edu/Andrew.Hung
+"Tang":
+  - firstname: ["Yihe"]
+    url: https://www.linkedin.com/in/yihetang/
+"Gokmen":
+  - firstname: ["Cem"]
+    url: https://www.cemgokmen.com/
 "Song":
   - firstname: ["Yale"]
     url: https://people.csail.mit.edu/yalesong/home/
@@ -95,9 +108,52 @@
 "Liu":
   - firstname: ["Qin"]
     url: https://qinliu9.github.io/
+  - firstname: [ "Miao" ]
+    url: https://aptx4869lm.github.io/
 "Mo":
   - firstname: ["Wenjie"]
     url: https://www.linkedin.com/in/jacky-mo-b5827a213/
 "Koh":
   - firstname: ["Pang Wei"]
     url: https://koh.pw/
+"Ai":
+  - firstname: ["Wensi"]
+    url: https://wensi-ai.github.io/
+"Martinez":
+  - firstname: ["Benjamin Jose"]
+    url: https://web.stanford.edu/~benjm/
+"Aydin":
+  - firstname: ["Arman"]
+    url: https://www.linkedin.com/in/arman-aydin-915035185/
+"Anvari":
+  - firstname: ["Mona"]
+    url: https://www.linkedin.com/in/mona-anvari/
+"Chakravarthy":
+  - firstname: ["Ayush K"]
+    url: https://scholar.google.ca/citations?user=u4S8E4UAAAAJ&hl=en
+"Yu":
+  - firstname: ["Hong-Xing"]
+    url: https://kovenyu.com/
+"Wong":
+  - firstname: ["Josiah"]
+    url: https://jdw.ong/
+"Srivastava":
+  - firstname: ["Sanjana"]
+    url: https://scholar.google.com/citations?user=sqTh_dwAAAAJ&hl=en
+"Lee":
+  - firstname: ["Sharon"]
+    url: https://scholar.google.com/citations?hl=en&user=jGwt3mcAAAAJ&view_op=list_works&sortby=pubdate
+"Zha":
+  - firstname: ["Shengxin"]
+    url: https://scholar.google.com/citations?user=QRvXHNsAAAAJ&hl=en
+"Martin-Martin":
+  - firstname: ["Roberto"]
+    url: https://robertomartinmartin.com/
+"Zhang":
+  - firstname: ["Pengchuan"]
+    url: https://pzzhang.github.io/pzzhang/
+  - firstname: [ "Ruohan" ]
+    url: https://ai.stanford.edu/~zharu/
+"Wu":
+  - firstname: ["Jiajun"]
+    url: https://jiajunwu.com/

@@ -5,6 +5,9 @@
 "PhysRev":
   url: https://journals.aps.org/
 
+"Vision":
+  color: "#009f36"
+
 "AUA":
   url: https://www.auajournals.org/
 
@@ -15,7 +18,7 @@
   url: https://arxiv.org/
 
 "ECCV":
-  url: https://eccv2022.ecva.net/
+  url: https://eccv.ecva.net/
 
 "ACL":
   url: https://aclanthology.org/
@@ -31,3 +34,6 @@
 
 "CVPR":
   url: https://cvpr.thecvf.com/
+
+"COLM":
+  url: https://colmweb.org/
