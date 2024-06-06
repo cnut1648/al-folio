@@ -14,9 +14,9 @@
     url: https://scholar.google.com/citations?user=UcegV-cAAAAJ&hl=en
   - firstname: ["Dongsheng"]
     url: http://recmind.cn/
-  - firstname: [ "Chengshu" ]
+  - firstname: ["Chengshu"]
     url: https://www.chengshuli.me/
-  - firstname: [ "Yunzhu" ]
+  - firstname: ["Yunzhu"]
     url: https://yunzhuli.github.io/
 "Fei-Fei":
   - firstname: ["Li"]
@@ -108,7 +108,7 @@
 "Liu":
   - firstname: ["Qin"]
     url: https://qinliu9.github.io/
-  - firstname: [ "Miao" ]
+  - firstname: ["Miao"]
     url: https://aptx4869lm.github.io/
 "Mo":
   - firstname: ["Wenjie"]
@@ -152,7 +152,7 @@
 "Zhang":
   - firstname: ["Pengchuan"]
     url: https://pzzhang.github.io/pzzhang/
-  - firstname: [ "Ruohan" ]
+  - firstname: ["Ruohan"]
     url: https://ai.stanford.edu/~zharu/
 "Wu":
   - firstname: ["Jiajun"]
