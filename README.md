@@ -9,3 +9,9 @@ Use the following command to build (you might need to [install to user directory
 bundle install
 bundle exec jekyll server
 ```
+
+Always run prettier before push:
+```shell
+npx prettier . --check
+npx prettier . --write
+```
