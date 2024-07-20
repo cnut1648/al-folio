@@ -26,7 +26,7 @@
               {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
             {% endif %}
             <abbr
-              class="badge mr-2"
+              class="badge flex-fill"
               {% if venue_style %}
                 {{ venue_style }}
               {% endif %}
@@ -38,7 +38,7 @@
         {% endif %}
 
         {%- if entry.abbr2 -%}
-          <abbr class="badge" style="color:rebeccapurple !important;">{{ entry.abbr2 }}</abbr>
+          <abbr class="badge flex-fill" style="color:rebeccapurple !important;">{{ entry.abbr2 }}</abbr>
         {%- endif -%}
       </div>
     </div>
