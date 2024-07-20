@@ -41,4 +41,4 @@ My current research interests is in `Reliable AI`. Particularly,
 
 This is my girlfriend 😍[Carmen](https://www.linkedin.com/in/carmen-liang/) and me
 
-{% include figure.html path="assets/img/cc_and_me.jpg" class="img-fluid rounded z-depth-1 ccimg" zoomable=true %}
+{% include figure.liquid path="assets/img/cc_and_me.jpg" class="img-fluid rounded z-depth-1 ccimg" zoomable=true %}
