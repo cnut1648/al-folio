@@ -11,6 +11,7 @@ bundle exec jekyll server
 ```
 
 Always run prettier before push:
+
 ```shell
 npx prettier . --check
 npx prettier . --write
