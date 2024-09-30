@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Master student @ Harvard
+subtitle: Research Scientist at NVIDIA
 
 profile:
   align: right
@@ -27,7 +27,8 @@ social: true # includes social icons at the bottom of the page
 
 Hi there 👋
 
-I am a master student at [Harvard University](https://www.harvard.edu/) studying computer science.
+I am a research scientist at NVIDIA. 
+I was a master student at [Harvard University](https://www.harvard.edu/) studying computer science.
 Previously I double majored in applied mathematics and computer science at [USC](https://www.usc.edu/).
 I had the honor to work with Prof. [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard SEAS, and Prof. [Muhao Chen](https://muhaochen.github.io/) at USC.
 I have spent a bit of time as research intern at Amazon Science team working on LLM and as student collaborator at Microsoft Research working on synthetic data generation.
