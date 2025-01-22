@@ -27,7 +27,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi there 👋
 
-I am a research scientist at NVIDIA.
+I am a research scientist at NVIDIA. 
 I was a master student at [Harvard University](https://www.harvard.edu/) studying computer science.
 Previously I double majored in applied mathematics and computer science at [USC](https://www.usc.edu/).
 I had the honor to work with Prof. [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard SEAS, and Prof. [Muhao Chen](https://muhaochen.github.io/) at USC.
@@ -38,3 +38,7 @@ My current research interests is in `Reliable AI`. Particularly,
 - AI safety [[1](https://arxiv.org/pdf/2305.14710.pdf), [2](https://arxiv.org/pdf/2311.09763.pdf), [3](https://arxiv.org/abs/2401.12255)]
 - Training AI that excels in low-resource regime, through indirect supervision [[1](https://aclanthology.org/2023.acl-long.138.pdf), [2](https://aclanthology.org/2022.naacl-main.190.pdf)] or synthetic data [[3](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830463.pdf), [4](https://arxiv.org/abs/2206.09592), [5](https://arxiv.org/abs/2309.05956), [6](https://arxiv.org/pdf/2312.14216.pdf)]
 - Explanation and how we can learn from explanation [[1](https://proceedings.neurips.cc/paper/2021/file/9752d873fa71c19dc602bf2a0696f9b5-Paper.pdf), [2](https://www.nature.com/articles/s41746-022-00738-y), [3](https://www.nature.com/articles/s41746-022-00738-y)]
+
+This is my girlfriend 😍[Carmen](https://www.linkedin.com/in/carmen-liang/) and me
+
+{% include figure.liquid path="assets/img/cc_and_me.jpg" class="img-fluid rounded z-depth-1 ccimg" zoomable=true %}
